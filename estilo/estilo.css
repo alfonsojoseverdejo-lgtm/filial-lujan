@@ -240,10 +240,7 @@ input::placeholder, textarea::placeholder{
 }
 
 
-.icon {
-   width: 300px;
-  height: 300px; 
-}
+
 
 @media(max-widith:991px) {
     .container{
