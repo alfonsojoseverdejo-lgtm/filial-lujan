@@ -189,7 +189,7 @@ input::placeholder, textarea::placeholder{
     align-items: center;
     justify-content:space-evenly;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.904);
-    border-radius: 20px;
+   /* border-radius: 20px;*/
     text-align: center;    
     background-color: rgba(255, 255, 255, 0.5);
     color:rgb(1, 12, 36);
@@ -240,6 +240,29 @@ input::placeholder, textarea::placeholder{
 }
 
 
+.galeria-gird{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 50vw;
+    margin :auto  ;
+}
+.foto-int {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    filter:brightness(80%)
+}
+.text-p {
+    color: #040faa;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 
 
 @media(max-widith:991px) {
